@@ -1,0 +1,44 @@
+* {
+    font-family: 'Plus Jakarta Display';
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background: linear-gradient(180deg, #ffffff 0%, #f0f1ff 100%);
+}
+
+@media screen and (min-width: $TABLET) {
+    .hero-image {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 50%;
+        height: 70vh;
+        background-image: url("/img/image-hero-tablet.png");
+        background-repeat: no-repeat;
+        background-position: bottom left;
+    }
+    .main-wrapper {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 86px;
+    }
+}
+
+@media screen and (min-width: $DESKTOP) {
+    .hero-image {
+        height: 80vh;
+        background-image: url("/img/image-hero-desktop.png");
+        background-position: -18px -180px;
+        background-size: auto 120%;
+        z-index: -99;
+    }
+    .footer-wrapper, .main-wrapper {
+        width: 80% !important;
+        max-width: 1140px;
+        margin: auto;
+    }
+}

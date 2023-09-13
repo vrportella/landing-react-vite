@@ -1,0 +1,26 @@
+.footer {
+    display: flex;
+    align-items: center;
+    background-color: $blue;
+    height: 7rem;
+    &-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        color: #ffffff;
+        width: 100%;
+    }
+    &-button {
+        background: $secondary-gradient;
+        color: #ffffff;
+        border-radius: 50px;
+        width: 8rem;
+        height: 3rem;
+        line-height: 3rem;
+        font-size: 16px;
+        font-weight: 700;
+        text-decoration: none;
+        text-align: center;
+    }
+}
