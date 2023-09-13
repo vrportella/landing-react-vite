@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: 'https://vrcportella.gitlab.io/landing-react-vite'
+  base: 'https://vrcportella.github.io/landing-react-vite'
 })
